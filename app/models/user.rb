@@ -5,4 +5,5 @@ class User < ActiveRecord::Base
             length: { maximum: 20 }
             
   has_many :posts
+  has_many :comments
 end
